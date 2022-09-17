@@ -13,11 +13,11 @@ export default function Navbar(props) {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item"><Link className="nav-link" to="https://github.com/nareshkakkad/nkreact/"> Home</Link> </li>
-        <li className="nav-item"> <Link className="nav-link" to="https://github.com/nareshkakkad/nkreact/about">About</Link>  </li>
-        <li className="nav-item"> <Link className="nav-link" to="https://github.com/nareshkakkad/nkreact/services">Services</Link>   </li>  
-        <li className="nav-item"> <Link className="nav-link" to="https://github.com/nareshkakkad/nkreact/form">Form</Link>   </li>  
-        <li className="nav-item"> <Link className="nav-link" to="https://github.com/nareshkakkad/nkreact/formlist">Form List</Link>   </li>  
+        <li className="nav-item"><Link className="nav-link" to="https://nareshkakkad.github.com/nkreact/"> Home</Link> </li>
+        <li className="nav-item"> <Link className="nav-link" to="https://nareshkakkad.github.com/nkreact/about">About</Link>  </li>
+        <li className="nav-item"> <Link className="nav-link" to="https://nareshkakkad.github.com/nkreact/services">Services</Link>   </li>  
+        <li className="nav-item"> <Link className="nav-link" to="https://nareshkakkad.github.com/nkreact/form">Form</Link>   </li>  
+        <li className="nav-item"> <Link className="nav-link" to="https://nareshkakkad.github.com/nkreact/formlist">Form List</Link>   </li>  
       </ul>
       
       {props.searchBar ?<form className="d-flex" role="search">
